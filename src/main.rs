@@ -15,6 +15,9 @@ fn hash_map()/* ini mirip dictionary python */ {
     v.insert("2","dua");
     v.insert("3","tiga");
 
+    for (k,v) in v.iter() {
+        println!("ini key : {} , ini value : {}",k,v)
+    }
     println!("isi hashmap {:?}",v);
 }
 fn _vector() /* ini mirip list python */ {
